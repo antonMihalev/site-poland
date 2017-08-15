@@ -1,0 +1,18 @@
+$('.review-slick').slick({
+	accessibility: true,
+	slideToShow: 1,
+	arrows: true,
+	nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+	prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+	appendArrows: $('.review-slick'),
+	autoplay: true,
+	fade: true,
+	swipeToSlide: true,
+	autoplaySpeed: 3000,
+	infinite: true,
+	swipeToSlide: true,
+    // mobileFirst: true,
+	focusOnSelect: true,
+	// variableWidth: true,
+	centerPadding: '5%',
+});
